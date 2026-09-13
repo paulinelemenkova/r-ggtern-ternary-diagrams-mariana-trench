@@ -1,3 +1,13 @@
+# ============================================================================
+# Ternary diagrams of Mariana Trench geomorphic factors (R, ggtern).
+# This produced figures in the peer-reviewed article:
+#   Lemenkova, P. (2019). Plotting Ternary Diagrams by R Library ggtern for
+#   Geological Modelling. Eastern Anatolian Journal of Science, 5(2), 16-25.
+#   DOI: https://doi.org/10.6084/m9.figshare.11369955
+#   HAL: https://hal.science/hal-02413007  Zenodo: https://zenodo.org/record/3576669
+# Author: Polina Lemenkova | ORCID: 0000-0002-5759-1089
+# ============================================================================
+
 # Ternary Diagram // треугольные диаграммы
 # ЧАСТЬ 1: вчитываем таблицу. делаем data.frame. удаляем NA
 MDF <- read.csv("Morphology.csv", header=TRUE, sep = ",")
